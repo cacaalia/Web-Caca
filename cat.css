@@ -1,0 +1,56 @@
+.head {
+    min-height: 100vh;
+    display: flex;
+    background-image: url(image/lucu.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1{
+text-align: center;
+background-color: white; 
+color: #85929e;
+} 
+
+.h2{
+font-size: larger; 
+text-align: center; 
+font-family: Franklin Gothic Medium;
+}
+
+.h3{
+font-size: 160%;
+} 
+
+.p {
+text-align: justify; 
+font-family: Franklin Gothic Medium;
+}
+
+.p {
+font-family: Franklin Gothic Medium; 
+text-align: justify;
+}
+
+.ol {
+font-family: Franklin Gothic Medium;
+}
+
+.table { 
+border-collapse: collapse;
+}
+.th, .td {
+border: 1px solid black;
+padding: 8px;
+text-align: left;
+}
+.th {
+    background-color: darkgray;
+}
+
+.h3 {
+style="font-size: 160%;">Purr-Sonality
+}
+.h2 {
+style="font-size: 100%;
+}

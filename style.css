@@ -1,0 +1,19 @@
+.form {
+    color: blue;
+}
+
+.table { 
+    border-collapse: collapse;
+}
+.th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    background-color: darkgray;
+    text-align: center;
+}
+.td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: justify;
+}
