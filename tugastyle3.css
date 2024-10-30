@@ -1,0 +1,160 @@
+.form {
+    color: beige;
+    text-align: center;
+}
+
+.table { 
+    border-collapse: collapse;
+}
+.th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    background-color: darkgray;
+    text-align: center;
+}
+.td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: justify;
+}
+ 
+h1, h3, h4, h5, h6 {
+    text-align: center;
+    background-color: beige;
+    color: #85929e;
+    letter-spacing: 6px;
+}
+
+h2 {
+    text-align: center;
+}
+.h1 { 
+    text-align: center; 
+    background-color: beige; 
+    color: #85929e;
+    letter-spacing: 6px;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 7%;
+    margin: -10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    position: relative;
+    border-bottom: 1.5px solid beige;
+    background-color: beige;
+}
+
+.navbar a {
+    color: grey;
+    font-family: trebuchet ms;
+    font-size: 110%;
+    margin: 0 1rem;
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 20px;
+}
+
+.navbar a:hover, .navbar a:active {
+   color: #2e4053;
+   text-align: center;
+   justify-content: center;
+}
+
+
+
+.konservasi a:link, .konservasi a:visited {
+    background-color: #aeb6bf;
+    color: #1b2631;
+    padding: 10px 10px;
+    margin: 0;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+.konservasi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.konservasi a:hover, .konservasi a:active {
+    background-color: darkkhaki;
+    border: 3px solid #566573;
+
+  }
+
+.cotainer {
+    display: flex; /* sejajar berurutan */
+    justify-content: space-around;
+}
+
+.content {
+    background-color: #aeb6bf;
+    color: #1b2631;
+    padding: 20px;
+    border: 3px solid #566573;
+    margin: 10px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.content:hover {
+    background-color: darkkhaki;
+    color: #2e4053;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.icon {
+    padding-top: 18px;
+    display: flex;
+}
+
+.fa-brands.fa-instagram.fa-xl {
+    color: beige;
+    padding-right: 15px;
+}
+.fa-brands.fa-youtube.fa-xl {
+    color: beige;
+    padding-right: 15px;
+}
+.fa-regular.fa-envelope.fa-xl {
+    color: beige;
+    padding-right: 15px;
+}
+
+.footer {
+    color: #2e4053;
+    margin: 0 -7px -7px -7px;
+    background-color: #aeb6bf;
+    padding: 5px;
+    text-align: center;
+}
+
+.ul {
+    margin-bottom: 5px;
+    margin-left: 5%;
+    text-align: justify;
+    list-style: square;
+    opacity: 80%;
+
+}
+
+body {
+    color: #1b2631;
+    font-family: Franklin Gothic Medium;
+    letter-spacing: 0.5px;
+}

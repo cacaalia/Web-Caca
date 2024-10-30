@@ -1,0 +1,12 @@
+.cotainer {
+    display: flex;+
+}
+
+.content {
+    background-color: darkslateblue;
+    color: cornflowerblue;
+    /* padding: 20px; */
+    border-radius: 10px;
+    text-align: justify;
+    gap: 20px;
+}
